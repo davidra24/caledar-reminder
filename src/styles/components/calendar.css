@@ -8,7 +8,7 @@
 .calendar-days {
   display: grid;
   grid-template: repeat(1, 45px) / repeat(7, 1fr);
-  width: 90%;
+  width: 95%;
   min-width: 30rem;
   height: 10%;
   margin: 1rem auto;

@@ -28,12 +28,12 @@
   font-size: small;
 }
 .day__icon-reminder {
-  font-size: small;
+  font-size: xx-small;
   width: 1rem;
   height: 1rem;
   text-align: center;
   cursor: pointer;
-  margin-inline-start: 0.8rem;
+  margin-inline-start: 0.2rem;
 }
 .icon-plus {
   color: #2196f3;
@@ -71,6 +71,10 @@
 @media (min-width: 768px) {
   .day__reminder-container {
     flex-direction: row;
+  }
+  .day__icon-reminder {
+    font-size: small;
+    margin-inline-start: 1rem;
   }
   .day__reminder {
     font-size: 1rem;

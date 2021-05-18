@@ -39,6 +39,9 @@ export const AddReminder = ({
   const handleChangeColor = (e) => {
     setColor(e.hex);
   };
+  const handleChangeCity = (e) => {
+    setCityLocal(e.target.value);
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
     const validator = validate();
@@ -106,7 +109,7 @@ export const AddReminder = ({
                     name='cities'
                     id='date-picker'
                     value={cityLocal}
-                    onChange={setCityLocal}>
+                    onChange={handleChangeCity}>
                     {allCities.map((city) => (
                       <option value={city.id}>{city.name}</option>
                     ))}
