@@ -51,7 +51,7 @@ export const AddReminder = ({
         month,
         day,
         reminder.value,
-        cityLocal,
+        Number(cityLocal),
         color,
         time.value,
         dispatch,
