@@ -1,0 +1,49 @@
+.reminder__container {
+  padding: 3rem 1rem;
+}
+.form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form__container-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.form__container-button {
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.form__inputs-reminder {
+  display: flex;
+  flex-direction: column;
+}
+.date-picker__color {
+  font-size: medium;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date-picker__color-selected {
+  width: 5rem;
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin-inline-start: 2rem;
+}
+.form__inputs-label {
+  font-size: medium;
+  color: #292929;
+}
+.error {
+  font-size: x-small;
+  color: red;
+}
+@media (min-width: 768px) {
+  .form__container-inputs {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,58 @@
+.reminder__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.reminder__container-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.reminder__data {
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+}
+.reminder__data-title {
+  width: 90%;
+  text-align: center;
+  margin-block-end: 1rem;
+  font-size: 2rem;
+  overflow-wrap: break-word;
+}
+
+.reminder__data-hour {
+  font-size: 1.8rem;
+}
+
+.reminder__data-city {
+  font-size: 1.5rem;
+}
+.reminder__data-icon__container {
+  width: 100%;
+  margin-block-start: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.reminder__data-icon {
+  cursor: pointer;
+}
+.reminder__icon-link {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  margin-inline-end: 5rem;
+}
+.reminder__container-title_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,44 @@
+.calendar-container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  padding-top: 1rem;
+}
+.calendar-days {
+  display: grid;
+  grid-template: repeat(1, 45px) / repeat(7, 1fr);
+  width: 90%;
+  min-width: 30rem;
+  height: 10%;
+  margin: 1rem auto;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.calendar-days_day {
+  border: 0.2px solid black;
+  border-radius: 5px;
+  min-width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .calendar-days_day {
+    font-size: small;
+  }
+  .calendar-days {
+    grid-template: repeat(1, 1fr) / repeat(7, 1fr);
+    width: 80%;
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 1024px) {
+  .calendar-days {
+    width: 60%;
+    font-size: 1.8rem;
+  }
+}
